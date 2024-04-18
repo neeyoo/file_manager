@@ -1,3 +1,10 @@
+/**
+ * @file test_TimestampedFileManager.hpp
+ * @author Yang Zhang
+ * @copyright  Released under the terms of the BSD 3-Clause License
+ * @date 2024
+ */
+
 #include <gtest/gtest.h>
 #include "TimestampedFileManager.hpp"
 #include <filesystem>

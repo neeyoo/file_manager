@@ -1,3 +1,13 @@
+/**
+ * @file TimestampedFileManager.hpp
+ * @author Yang Zhang
+ * @copyright  Released under the terms of the BSD 3-Clause License
+ * @date 2024
+ */
+
+#ifndef TIMESTAMPED_FILE_MANAGER_HPP
+#define TIMESTAMPED_FILE_MANAGER_HPP
+
 #include <string>
 #include <vector>
 #include <filesystem>
@@ -40,3 +50,5 @@ private:
     std::string _file_prefix;
     long long _max_size;
 };
+
+#endif

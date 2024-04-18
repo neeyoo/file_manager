@@ -1,3 +1,10 @@
+/**
+ * @file TimestampedFileManager.cpp
+ * @author Yang Zhang
+ * @copyright  Released under the terms of the BSD 3-Clause License
+ * @date 2024
+ */
+
 #include <iostream>
 #include <ctime>
 #include <iomanip>
