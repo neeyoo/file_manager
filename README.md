@@ -14,8 +14,8 @@ This library provide the class `TimestampedFileManager` which can be initialized
 - `const std::string &directory_path`: the path to the directory including datefiles to be managed
 - `const std::string &timestamp_format`: timestamp format in the file name
 - `const long long &max_size`: maximum allowable size of all datafiles
-- `const std::string &file_prefix`: prefix in the datafile name
-- `const std::string &file_suffix`: extension of the datafile
+- `const std::string &file_prefix`: prefix in the datafile name (optional, can be just empty string)
+- `const std::string &file_suffix`: extension of the datafile (optional, can be just empty string)
 
 ## Build from source
 1. Use cmake to build

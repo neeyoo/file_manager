@@ -28,8 +28,8 @@ include(GoogleTest)
 gtest_discover_tests(test_TimestampedFileManager)
 
 
-include_directories(timestamped_filesystem_manager)
-add_subdirectory(timestamped_filesystem_manager)
+include_directories(timestamped_file_manager)
+add_subdirectory(timestamped_file_manager)
 
 
 add_executable(fm_test fm_test.cpp)
