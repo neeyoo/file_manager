@@ -1,0 +1,2 @@
+# compile and link TimeStampedFileManager
+add_library(TimeStampedFileManager SHARED TimestampedFileManager.cpp)
